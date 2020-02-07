@@ -1,0 +1,59 @@
+﻿  main.cpp
+libgroupsock.lib(Groupsock.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in DataPacket.obj
+libgroupsock.lib(Groupsock.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in DataPacket.obj
+libgroupsock.lib(NetInterface.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in DataPacket.obj
+libgroupsock.lib(NetInterface.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in DataPacket.obj
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_bind referenced in function "bool __cdecl getSourcePort(class UsageEnvironment &,int,class Port &)" (?getSourcePort@@YA_NAEAVUsageEnvironment@@HAEAVPort@@@Z)
+libliveMedia.lib(RTSPClient.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+libgroupsock.lib(NetInterface.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+libBasicUsageEnvironment.lib(BasicTaskScheduler.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+libliveMedia.lib(GenericMediaServer.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+libliveMedia.lib(RTSPServer.obj) : error LNK2001: unresolved external symbol __imp_closesocket
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_ioctlsocket referenced in function "bool __cdecl makeSocketBlocking(int,unsigned int)" (?makeSocketBlocking@@YA_NHI@Z)
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_getsockname referenced in function "bool __cdecl getSourcePort0(int,unsigned short &)" (?getSourcePort0@@YA_NHAEAG@Z)
+libliveMedia.lib(RTSPServer.obj) : error LNK2001: unresolved external symbol __imp_getsockname
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_getsockopt referenced in function "unsigned int __cdecl getBufferSize(class UsageEnvironment &,int,int)" (?getBufferSize@@YAIAEAVUsageEnvironment@@HH@Z)
+libliveMedia.lib(RTSPClient.obj) : error LNK2001: unresolved external symbol __imp_getsockopt
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_htonl referenced in function "bool __cdecl badAddressForUs(unsigned int)" (?badAddressForUs@@YA_NI@Z)
+libgroupsock.lib(NetAddress.obj) : error LNK2001: unresolved external symbol __imp_htonl
+libliveMedia.lib(MediaSink.obj) : error LNK2001: unresolved external symbol __imp_htonl
+libliveMedia.lib(MPEG1or2VideoRTPSource.obj) : error LNK2001: unresolved external symbol __imp_ntohl
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2001: unresolved external symbol __imp_ntohl
+libliveMedia.lib(MediaSink.obj) : error LNK2001: unresolved external symbol __imp_ntohl
+libliveMedia.lib(RTCP.obj) : error LNK2001: unresolved external symbol __imp_ntohl
+libliveMedia.lib(MultiFramedRTPSource.obj) : error LNK2001: unresolved external symbol __imp_ntohl
+libliveMedia.lib(MediaSession.obj) : error LNK2001: unresolved external symbol __imp_ntohs
+libgroupsock.lib(Groupsock.obj) : error LNK2001: unresolved external symbol __imp_ntohs
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2001: unresolved external symbol __imp_ntohs
+libgroupsock.lib(NetAddress.obj) : error LNK2001: unresolved external symbol __imp_ntohs
+libliveMedia.lib(RTSPServer.obj) : error LNK2001: unresolved external symbol __imp_ntohs
+libliveMedia.lib(RTCP.obj) : error LNK2001: unresolved external symbol __imp_ntohs
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_recvfrom referenced in function "unsigned int __cdecl ourIPAddress(class UsageEnvironment &)" (?ourIPAddress@@YAIAEAVUsageEnvironment@@@Z)
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_select referenced in function "unsigned int __cdecl ourIPAddress(class UsageEnvironment &)" (?ourIPAddress@@YAIAEAVUsageEnvironment@@@Z)
+libBasicUsageEnvironment.lib(BasicTaskScheduler.obj) : error LNK2001: unresolved external symbol __imp_select
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_sendto referenced in function "unsigned int __cdecl ourIPAddress(class UsageEnvironment &)" (?ourIPAddress@@YAIAEAVUsageEnvironment@@@Z)
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_setsockopt referenced in function "unsigned int __cdecl increaseBufferTo(class UsageEnvironment &,int,int,unsigned int)" (?increaseBufferTo@@YAIAEAVUsageEnvironment@@HHI@Z)
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_socket referenced in function "int __cdecl createSocket(int)" (?createSocket@@YAHH@Z)
+libBasicUsageEnvironment.lib(BasicTaskScheduler.obj) : error LNK2001: unresolved external symbol __imp_socket
+libgroupsock.lib(GroupsockHelper.obj) : error LNK2019: unresolved external symbol __imp_gethostname referenced in function "unsigned int __cdecl ourIPAddress(class UsageEnvironment &)" (?ourIPAddress@@YAIAEAVUsageEnvironment@@@Z)
+libliveMedia.lib(OnDemandServerMediaSubsession.obj) : error LNK2001: unresolved external symbol __imp_gethostname
+libliveMedia.lib(MediaSession.obj) : error LNK2001: unresolved external symbol __imp_gethostname
+libgroupsock.lib(NetAddress.obj) : error LNK2019: unresolved external symbol __imp_htons referenced in function "public: __cdecl Port::Port(unsigned short)" (??0Port@@QEAA@G@Z)
+libliveMedia.lib(RTSPClient.obj) : error LNK2001: unresolved external symbol __imp_htons
+libliveMedia.lib(RTSPRegisterSender.obj) : error LNK2001: unresolved external symbol __imp_htons
+libgroupsock.lib(NetAddress.obj) : error LNK2019: unresolved external symbol __imp_gethostbyname referenced in function "public: __cdecl NetAddressList::NetAddressList(char const *)" (??0NetAddressList@@QEAA@PEBD@Z)
+libgroupsock.lib(inet.obj) : error LNK2019: unresolved external symbol __imp_inet_addr referenced in function our_inet_addr
+libgroupsock.lib(inet.obj) : error LNK2019: unresolved external symbol __imp_WSAStartup referenced in function initializeWinsockIfNecessary
+libgroupsock.lib(inet.obj) : error LNK2019: unresolved external symbol __imp_WSACleanup referenced in function initializeWinsockIfNecessary
+libBasicUsageEnvironment.lib(BasicUsageEnvironment.obj) : error LNK2019: unresolved external symbol __imp_WSAGetLastError referenced in function "public: virtual int __cdecl BasicUsageEnvironment::getErrno(void)const " (?getErrno@BasicUsageEnvironment@@UEBAHXZ)
+libBasicUsageEnvironment.lib(BasicTaskScheduler.obj) : error LNK2001: unresolved external symbol __imp_WSAGetLastError
+libBasicUsageEnvironment.lib(BasicTaskScheduler.obj) : error LNK2019: unresolved external symbol __WSAFDIsSet referenced in function "protected: virtual void __cdecl BasicTaskScheduler::SingleStep(unsigned int)" (?SingleStep@BasicTaskScheduler@@MEAAXI@Z)
+libliveMedia.lib(GenericMediaServer.obj) : error LNK2019: unresolved external symbol __imp_accept referenced in function "protected: void __cdecl GenericMediaServer::incomingConnectionHandler(void)" (?incomingConnectionHandler@GenericMediaServer@@IEAAXXZ)
+libliveMedia.lib(GenericMediaServer.obj) : error LNK2019: unresolved external symbol __imp_listen referenced in function "protected: static int __cdecl GenericMediaServer::setUpOurSocket(class UsageEnvironment &,class Port &)" (?setUpOurSocket@GenericMediaServer@@KAHAEAVUsageEnvironment@@AEAVPort@@@Z)
+libliveMedia.lib(RTSPServer.obj) : error LNK2019: unresolved external symbol __imp_send referenced in function "protected: virtual void __cdecl RTSPServer::RTSPClientConnection::handleRequestBytes(int)" (?handleRequestBytes@RTSPClientConnection@RTSPServer@@MEAAXH@Z)
+libliveMedia.lib(RTPInterface.obj) : error LNK2001: unresolved external symbol __imp_send
+libliveMedia.lib(RTSPClient.obj) : error LNK2001: unresolved external symbol __imp_send
+libliveMedia.lib(RTSPClient.obj) : error LNK2019: unresolved external symbol __imp_connect referenced in function "protected: virtual int __cdecl RTSPClient::connectToServer(int,unsigned short)" (?connectToServer@RTSPClient@@MEAAHHG@Z)
+F:\Practices\RTSPMultiCam\x64\Debug\RTSPMultiCam.exe : fatal error LNK1120: 25 unresolved externals
